@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="WDD 131 - Course Home - Douglas Greyling">
+      <meta name="author" content="Douglas Greyling">
+      <title>WDD 131 - Course Home - Douglas Greyling</title>
+      <link rel="stylesheet" href="styles/base.css">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+      <script src="scripts/getdates.js" defer></script>
+      <script src="scripts/hamburger.js" defer></script>
+      <script src="scripts/courses.js" defer></script>
+      <script src="scripts/filter.js" defer></script>
+  </head>
+  <body>
+      <header>
+          <div class="profile">
+              <img src="images/profile.jpg" alt="Douglas Greyling profile picture" height="100" width="100">
+              <h1>Douglas Greyling</h1>
+          </div>
+          <button class="hamburger">&#9776;</button>
+          <nav>
+              <ul>
+                  <li><a href="#" class="active">Home</a></li>
+                  <li><a href="#">Chamber</a></li>
+                  <li><a href="#">GitHub Profile</a></li>
+                  <li><a href="https://www.linkedin.com/in/douglas-greyling/">LinkedIn</a></li>
+              </ul>
+          </nav>
+      </header>
+      <main>
+          <h1>Home</h1>
+
+          <section class="course-container">
+              <div class="course-work">
+                  <h2>Course Work</h2>
+
+                  <ul>
+                      <li>Project 1</li>
+                      <li>Project 2</li>
+                      <li>Project 3</li>
+                  </ul>
+              </div>
+
+              <div class="location">
+                  <h2>Durban, South Africa</h2>
+                  <img src="images/monkey.jpg" alt="Vervet monkeys in Durban, South Africa" height="200" width="300">
+              </div>
+          </section>
+
+          <section class="certificate">
+              <h2>
+                Web and Computer Programming Certificate
+                <span id="credits"></span>
+              </h2>
+
+              <div id="filters" class="filters">
+                  <button data-subject="all">All</button>
+                  <button data-subject="CSE">CSE</button>
+                  <button data-subject="WDD">WDD</button>
+              </div>
+
+              <div id="courselist" class="courses">
+              </div>
+          </section>
+      </main>
+      <footer>
+          <p>
+            &copy; <span id="currentyear"></span> Douglas Greyling - Durban, South Africa
+          </p>
+          <p id="lastModified"></p>
+      </footer>
+  </body>
+</html>

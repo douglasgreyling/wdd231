@@ -1,0 +1,173 @@
+body {
+  font-family: Roboto, helvetica, sans-serif;
+  margin: 0;
+}
+
+.profile {
+  align-items: center;
+  background-color: #164E70;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.profile img {
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+nav {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #164E70;
+}
+
+main {
+  margin: 20px;
+}
+
+main h1 {
+  margin-bottom: 0px;
+}
+
+.course-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.course-container h2 {
+  background-color: #164E70;
+  padding: 10px;
+  color: white;
+}
+
+.certificate {
+  width: 100%;
+}
+
+.certificate h2 {
+  background-color: #164E70;
+  padding: 10px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.certificate .filters {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.certificate .filters button {
+  background-color: black;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin: 0 10px;
+  padding: 10px;
+  border-radius: 5px;
+  min-width: 100px;
+}
+
+.certificate .filters button:hover {
+  background-color: #164E70;
+}
+
+.courses {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.courses button {
+  background-color: black;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.courses button:hover {
+  background-color: #164E70;
+}
+
+footer {
+  background-color: #164E70;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.completed {
+  background-color: #164E70 !important;
+}
+
+#credits {
+  font-size: 13px;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .course-container {
+    flex-direction: column;
+  }
+
+  .courses {
+    grid-template-columns: 1fr;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+
+  nav ul.active {
+    display: flex;
+  }
+}
+
