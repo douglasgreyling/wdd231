@@ -1,0 +1,51 @@
+[
+  {
+    "name": "GreenLeaf Organic Market",
+    "address": "123 Main St, Springfield, IL 62701",
+    "phone": "(217) 555-1234",
+    "website": "http://www.greenleaforganic.com",
+    "membership_level": 3
+  },
+  {
+    "name": "Tech Haven Solutions",
+    "address": "456 Innovation Dr, Austin, TX 78701",
+    "phone": "(512) 555-5678",
+    "website": "http://www.techhavensolutions.com",
+    "membership_level": 2
+  },
+  {
+    "name": "Bella's Italian Bistro",
+    "address": "789 Pasta Ave, San Diego, CA 92101",
+    "phone": "(619) 555-8765",
+    "website": "http://www.bellasbistro.com",
+    "membership_level": 1
+  },
+  {
+    "name": "Summit Financial Advisors",
+    "address": "321 Wealth St, Denver, CO 80202",
+    "phone": "(303) 555-2468",
+    "website": "http://www.summitfinancial.com",
+    "membership_level": 3
+  },
+  {
+    "name": "EcoClean Dry Cleaning",
+    "address": "654 Fresh Ln, Seattle, WA 98101",
+    "phone": "(206) 555-9987",
+    "website": "http://www.ecocleandrycleaning.com",
+    "membership_level": 2
+  },
+  {
+    "name": "Sunrise Yoga Studio",
+    "address": "987 Zen Rd, Miami, FL 33101",
+    "phone": "(305) 555-6543",
+    "website": "http://www.sunriseyogamiami.com",
+    "membership_level": 1
+  },
+  {
+    "name": "Pinnacle Auto Repair",
+    "address": "222 Torque Dr, Phoenix, AZ 85001",
+    "phone": "(602) 555-1122",
+    "website": "http://www.pinnacleautorepair.com",
+    "membership_level": 3
+  }
+]

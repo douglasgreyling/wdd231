@@ -1,0 +1,186 @@
+body {
+  font-family: Roboto, helvetica, sans-serif;
+  margin: 0;
+}
+
+main {
+  padding: 0px 40px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+header div.logo {
+  display: flex;
+  flex-direction: column;
+}
+
+header div.logo h1 {
+  margin: 0;
+}
+
+.hamburger {
+  display: none;
+  background: transparent;
+  color: white;
+  border: none;
+  font-size: 35px;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header nav ul li {
+  padding: 10px 10px;
+}
+
+header nav ul li:hover {
+  background-color: #555;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white !important;
+}
+
+header nav ul li:not(:first-child) {
+  margin-left: 20px;
+}
+
+#hero {
+  display: flex;
+  justify-content: center;
+}
+
+#weather {
+  display: flex;
+  justify-content: space-between;
+}
+
+#weather h2 {
+  background-color: #333;
+  padding: 10px;
+  color: white;
+  width: 100%;
+}
+
+.business img {
+  margin-right: 10px;
+}
+
+.business div.info {
+  display: flex;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+#control {
+  display: flex;
+  color: white;
+  background: #333;
+  justify-content: center;
+}
+
+#control div {
+  padding: 20px;
+}
+
+#control div:hover {
+  background: #555;
+  cursor: pointer;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+#grid.active, #list.active {
+  background-color: #555;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  header div.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  header nav {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.5s ease-out;
+  }
+
+  header nav.active {
+    grid-template-rows: 1fr;
+  }
+
+  header nav ul {
+    overflow: hidden;
+    flex-direction: column;
+    padding-left: 0px;
+    margin-bottom: 0px;
+  }
+
+  header nav ul li {
+    padding: 10px 0px;
+  }
+
+  header nav ul li:not(:first-child) {
+    margin-left: 0px;
+  }
+
+  header nav ul li {
+    transition: all 0.5s ease-out;
+  }
+
+  header nav ul.active li {
+    display: block;
+  }
+
+  .hamburger.active::before {
+    content: "x";
+  }
+
+  .hamburger.active span {
+    display: none;
+  }
+
+  #weather {
+    display: flex;
+    flex-direction: column;
+  }
+}
