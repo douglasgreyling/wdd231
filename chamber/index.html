@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home page for the Chamber of Commerce">
+    <meta name="author" content="Douglas Greyling">
+
+    <meta property="og:title" content="Home Page for Chamber of Commerce" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://en.wikipedia.org/wiki/File:Euro_coins_and_banknotes_(cropped).jpg" />
+    <meta property="og:url" content="https://douglasgreyling.github.io/wdd231/chamber/index.html" />
+
+    <title>WDD 231 - Chamber of Commerce - Home</title>
+
+    <link rel="icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <script src="scripts/hamburger.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/spotlight.js" defer></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <div>
+          <h1>Timbuktu</h1>
+          <span>Chamber of Commerce</span>
+        </div>
+
+        <button class="hamburger"><span>&#9776;</span></button>
+      </div>
+
+      <nav id="nav">
+        <ul>
+          <li><a href="./index.html" class="active">Home</a></li>
+          <li><a href="./directory.html">Directory</a></li>
+          <li><a href="#">Join</a></li>
+          <li><a href="#">Discover</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero-wrapper">
+        <div id="hero">
+          <div id="cta">
+            <h2>Join the Chamber of Commerce</h2>
+            <a href="#">
+              Join
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <h1>Home</h1>
+
+      <section id="items">
+        <div>
+          <h2>Events</h2>
+
+          <div classname="event">
+            <h3>Networking Breakfast</h3>
+            <p>Date: March 28, 2025 | Time: 8:00 AM – 9:30 AM</p>
+            <p>Location: Downtown Conference Center</p>
+            <p>Description: Kickstart your day with a morning of networking and fresh coffee. Meet local business owners and make valuable connections.</p>
+          </div>
+
+          <div classname="event">
+            <h3>Business 101: Starting Your Own Company</h3>
+            <p>Date: April 5, 2025 | Time: 10:00 AM – 12:00 PM</p>
+            <p>Location: Chamber of Commerce Office</p>
+            <p>Description: A free seminar for aspiring entrepreneurs to learn the ins and outs of starting a business, from permits to marketing strategies.</p>
+          </div>
+
+          <div classname="event">
+            <h3>Annual Charity Golf Tournament</h3>
+            <p>Date: May 14, 2025 | Time: 9:00 AM – 3:00 PM</p>
+            <p>Location: Riverwood Golf Club</p>
+            <p>Description: Hit the greens for a good cause! Join us for a day of golf, prizes, and fundraising to benefit local charities.</p>
+          </div>
+        </div>
+
+        <div class="weather">
+          <h2>Current Weather</h2>
+
+          <p id="current-temperature"></p>
+          <p id="current-conditions"></p>
+
+          <h2>3 Day Weather Forecast</h2>
+
+          <ul id="forecast"></ul>
+        </div>
+      </section>
+
+      <section id="businesses">
+        <h2>Member Spotlight</h2>
+
+        <div class="container grid">
+        </div>
+      </section>
+    </main>
+
+    <footer>
+        <p>
+          &copy; <span id="currentyear"></span> Douglas Greyling - Durban, South Africa
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+  </body>
+</html>

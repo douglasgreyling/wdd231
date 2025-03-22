@@ -3,6 +3,10 @@ body {
   margin: 0;
 }
 
+html, body {
+  height: 100%;
+}
+
 main {
   padding: 0px 40px;
 }
@@ -56,15 +60,25 @@ header nav ul li:not(:first-child) {
 
 #hero {
   display: flex;
+  justify-content: end;
+  align-items: end;
+  background-image: url('https://placehold.co/1200x400');
+  background-size: cover;
+  min-height: 400px;
+  min-width: 1200px;
+}
+
+#hero-wrapper {
+  display: flex;
   justify-content: center;
 }
 
-#weather {
+#items {
   display: flex;
   justify-content: space-between;
 }
 
-#weather h2 {
+#items h2, #businesses h2 {
   background-color: #333;
   padding: 10px;
   color: white;
@@ -123,9 +137,42 @@ footer {
   background-color: #555;
 }
 
+#cta {
+  margin-bottom: 20px;
+  margin-right: 20px;
+  background-color: #333;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  height: 40px;
+}
+
+#cta a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  margin-left: 30px;
+  font-size: 30px;
+}
+
+#cta a:hover {
+  background-color: #555;
+}
+
 @media screen and (max-width: 768px) {
   header {
     flex-direction: column;
+  }
+
+  #hero {
+    display: flex;
+    justify-content: center;
+    background-image: url('https://placehold.co/400x400');
+    background-size: cover;
+    min-height: 400px;
+    min-width: 400px;
   }
 
   .hamburger {
@@ -179,7 +226,7 @@ footer {
     display: none;
   }
 
-  #weather {
+  #items {
     display: flex;
     flex-direction: column;
   }
