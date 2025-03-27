@@ -161,6 +161,89 @@ footer {
   background-color: #555;
 }
 
+#form {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#form form {
+  display: flex;
+  flex-direction: column;
+}
+
+#form form input, #form form select, #form form textarea {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 8px;
+}
+
+#form input[type="submit"] {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 5px;
+}
+
+#form input[type="submit"]:hover {
+  background-color: #555;
+}
+
+#np-card h3 {
+  animation: npColorAnimation 5s 1 normal forwards;
+}
+
+@keyframes npColorAnimation {
+  0% {
+    color: cadetblue;
+  }
+  100% {
+    color: black;
+  }
+}
+
+#bronze-card h3 {
+  animation: bronzeColorAnimation 5s 1 normal forwards;
+}
+
+@keyframes bronzeColorAnimation {
+  0% {
+    color: #cd7f32;
+  }
+  100% {
+    color: black;
+  }
+}
+
+#silver-card h3 {
+  animation: silverColorAnimation 5s 1 normal forwards;
+}
+
+@keyframes silverColorAnimation {
+  0% {
+    color: silver;
+  }
+  100% {
+    color: black;
+  }
+}
+
+#gold-card h3 {
+  animation: goldColorAnimation 5s 1 normal forwards;
+}
+
+@keyframes goldColorAnimation {
+  0% {
+    color: gold;
+  }
+  100% {
+    color: black;
+  }
+}
+
 @media screen and (max-width: 768px) {
   header {
     flex-direction: column;
@@ -227,6 +310,11 @@ footer {
   }
 
   #items {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #form {
     display: flex;
     flex-direction: column;
   }
