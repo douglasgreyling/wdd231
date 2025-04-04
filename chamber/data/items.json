@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Djinguereber Mosque",
+    "address": "Timbuktu, Mali​",
+    "description": "Constructed in 1327 under the direction of Mansa Musa, the Djinguereber Mosque is one of Timbuktu's oldest mosques. Built primarily from mudbrick and wood, it stands as a testament to Sudano-Sahelian architecture and has been a center of Islamic learning for centuries.",
+    "image": "djinguereber_mosque.webp"
+  },
+  {
+    "name": "Sankore Mosque",
+    "address": "Timbuktu, Mali​",
+    "description": "Also known as the University of Sankore, this mosque was established between 1325 and 1468. It became a renowned center of learning, housing thousands of manuscripts and attracting scholars from across the Islamic world.",
+    "image": "sankore_mosque.webp"
+  },
+  {
+    "name": "Sidi Yahya Mosque",
+    "address": "Timbuktu, Mali​",
+    "description": "Founded in 1440, the Sidi Yahya Mosque is part of Timbuktu's trio of great mosques. It holds significant spiritual importance and is associated with local legends about its construction and the arrival of a prophesied imam.",
+    "image": "sidi_yahya_mosque.webp"
+  },
+  {
+    "name": "Timbuktu Manuscripts",
+    "address": "Various libraries in Timbuktu, Mali​",
+    "description": "These ancient manuscripts, some dating back to the 13th century, cover a wide range of subjects including astronomy, medicine, and law. They highlight the city's historical role as a hub of knowledge and scholarship.",
+    "image": "timbuktu_manuscripts.webp"
+  },
+  {
+    "name": "Ahmed Baba Institute",
+    "address": "Timbuktu, Mali​",
+    "description": "Named after the prominent 16th-century scholar Ahmed Baba, this institute is dedicated to preserving and studying the rich collection of Timbuktu's manuscripts.",
+    "image": "ahmed_baba_institute.webp"
+  },
+  {
+    "name": "Timbuktu Market",
+    "address": "Central Timbuktu, Mali​",
+    "description": "A bustling marketplace where locals and visitors can find traditional crafts, textiles, and goods, reflecting the city's historical role as a trading hub.",
+    "image": "timbuktu_market.webp"
+  },
+  {
+    "name": "Explorers' Houses",
+    "address": "Timbuktu, Mali​",
+    "description": "Residences where famous explorers, such as René Caillié, stayed during their time in Timbuktu. These sites offer insights into the city's interactions with European explorers.",
+    "image": "explorers_houses.webp"
+  },
+  {
+    "name": "Flame of Peace Monument",
+    "address": "Timbuktu, Mali​",
+    "description": "Erected to commemorate the 1996 ceremony where thousands of weapons were burned to symbolize the end of the Tuareg rebellion, promoting peace in the region.",
+    "image": "flame_of_peace.webp"
+  }
+]
