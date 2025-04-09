@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 231 - MovieTracker - Douglas Greyling</title>
+    <meta name="description" content="WDD 231 - MovieTracker - Douglas Greyling">
+    <meta name="author" content="Douglas Greyling">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <meta property="og:title" content="Movie Page for Movie Tracker" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://douglasgreyling.github.io/wdd231/project/movie.html" />
+
+    <script src="scripts/movie.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+  </head>
+  <body>
+    <header class="flex items-center border-bottom">
+      <div class="flex mr-auto border-right p-1">
+        <h1 class="m-0">Movie Tracker</h1>
+      </div>
+
+      <nav class="flex">
+        <a class="no-decoration text-white hover-bg-secondary parrallelogram" href="./index.html">Movies</a>
+        <a class="no-decoration text-white hover-bg-secondary parrallelogram" href="./request.html">Request a movie</a>
+      </nav>
+    </header>
+    <div>
+      <main>
+        <section id="movie">
+        </section>
+      </main>
+    </div>
+    <footer class="border-top">
+      <p>
+        &copy; <span id="currentyear"></span> Douglas Greyling, South Africa
+      </p>
+    </footer>
+  </body>
+</html>
